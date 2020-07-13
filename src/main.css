@@ -1,0 +1,43 @@
+.vsc-initialized {
+        top: 0px;
+        left: 0px;
+        width: 1920px;
+        height: 1080px;
+        background: rgba(115, 26, 183, 1);
+        border: 1px solid #707070;
+        opacity: 1;
+        color: #f7f0f0;
+    }
+
+.container{
+    top: 0px;
+    width: 1172px;
+    height: 1080px;
+    background: rgba(10, 1, 1, 0.19) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid rgba(112, 112, 112, 0.19);
+}
+
+.text { 
+    margin-top: 4.5vw;
+    font: "Outline" "Apple Brainlle";
+    font-style: normal;
+}   
+
+.title {
+    font-family: "Lobster";
+    font-size: 4.2vw;
+}
+
+.iten {
+    font-family: "Lobster";
+    font-size: 2.2vw;
+}
+
+.caixa {
+    width: 70px;
+}
+
+.r1 { 
+    margin-top: 7vw;
+}
