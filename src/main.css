@@ -39,6 +39,7 @@
     height: 4.5vw;
     border: 5px solid rgba(247, 247, 247, 1);
     background-color: transparent;
+    color: #fff;
 }
 
 .r1 { 
@@ -70,7 +71,5 @@
     margin-left: auto;
     margin-right: auto;
     width: 17vw;
-
-    
-    
 }
+
