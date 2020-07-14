@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,74 +23,78 @@
                       Comidas
                     </div>
                     <div class="col-md-3 text-wrap">
-                      <input class="caixa" id="mulheres-qnt" type="text" />
-                      <label for="mulheres-qnt">Mulheres</label>
+                      <input class="caixa" id="mulheres-qnt" type="text"/>
+                      <label class="n1" for="mulheres-qnt">Mulheres</label>
                     </div>
                     <div class="col-md-3 text-wrap ">
-                      <input class="caixa" id="homens-qnt" type="text" />
-                      <label for="homens-qnt">Homens</label>
+                      <input class="caixa" id="homens-qnt" type="text" /><br>
+                      <label class="n1" for="homens-qnt">Homens</label>
                     </div>
                     <div class="col-md-3 text-wrap">
-                      <input class="caixa" id="criancas-qnt" type="text" />
-                      <label for="criancas-qnt">Crianças</label>                      
+                      <input class="caixa" id="criancas-qnt" type="text" /><br>
+                      <label class="n1" for="criancas-qnt">Crianças</label>                      
                     </div>
                   </div>
                 </div>
           </div>
         </div>
+        <div class="col-md-6 m1">
+          <div class=".col-md-4 .ml-md-auto ">
+            <input class="checkbox" id="acompanhamentos" type="checkbox" />
+            <label class="checkboxtext" for="acompanhamentos">Acompanhamentos</label>
+          </div>
+        </div>
+      </div>          
+      <div class="col-md-12 r1">
         <div class="row">
-          <div class="col-md-6">
-            <div class=".col-md-3 .ml-md-auto ">
-              <input id="acompanhamentos" type="checkbox" />
-              <label for="acompanhamentos">acompanhamentos</label>
-            </div>
+          <div class="col-md-3 iten">
+            Bebidas
           </div>
-        </div>          
-          <div class="col-md-12 r1">
-            <div class="row">
-              <div class="col-md-3 iten">
-                Bebidas
-              </div>
-              <div class="col-md-3">
-                <input  class="caixa"id="bebidas-alcoolicas" type="text" />
-                <label for="bebidas-alcoolicas">Bebidas alcoolicas</label>
-              </div>
-              <div class="col-md-3">
-                <input class="caixa" id="bebidas-nao-alcoolicas" type="text" />
-                <label for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label>
-              </div>
-              <div class="col-md-3">
-              </div>    
-            </div>
+          <div class="col-md-3 text-wrap">
+            <input  class="caixa"id="bebidas-alcoolicas" type="text" />
+            <label class="n1" for="bebidas-alcoolicas">Bebidas alcoolicas</label>
           </div>
-          <div class="col-md-12 r2">
-            <div class=" button">
-              <button type="submit" id="botaoCalcular">Calcular</button>
-            </div>
+          <div class="col-md-3 text-wrap">
+            <input class="caixa" id="bebidas-nao-alcoolicas" type="text" />
+            <label class="n1" for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label>
           </div>
+          <div class="col-md-3">
+          </div>    
         </div>
       </div>
-      <div >
-        <div>
-          <label for="total-carne" id="total-carne"></label>
-        </div>
-        <div>
-          <label for="total-pessoas" id="total-pessoas"></label>
-        </div>
-        <div>
-          <label for="total-acompanhamento" id="total-acompanhamento"></label>
-        </div>
-        <div>
-          <label for="total-bebidas-nao-alcoolicas" id="total-bebidas-nao-alcoolicas"></label>
-        </div>
-        <div>
-          <label for="total-bebidas-alcoolicas" id="total-bebidas-alcoolicas"></label>
+      <div class="col-md-12 r2">
+        <div class=" button">
+          <button type="submit" id="botaoCalcular">Calcular</button>
         </div>
       </div>
+      <div class="r3">    
+        <div class="col-md-6 m2">
+          <div class="m3">
+            <div>
+            <p>Pessoas:&nbsp<label class="textres" for="total-pessoas" id="total-pessoas"></label></p>
+          </div>
+          <div>
+            <p>Carne:&nbsp<label class="textres" for="total-carne" id="total-carne"></label></p>
+          </div>
+          <div>
+            <p>Acompanhamentos:&nbsp<label class="textres" for="total-acompanhamento" id="total-acompanhamento"></label></p>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-6 m2">
+          <div class="m3">
+            <div>
+              <p>Bebida não alcoolica:&nbsp<label class="textres" for="total-bebidas-nao-alcoolicas" id="total-bebidas-nao-alcoolicas"></label></p>
+            </div>
+            <div>
+              <p>Bebida alcoolica:&nbsp<label class="textres" for="total-bebidas-alcoolicas" id="total-bebidas-alcoolicas"></label></p>
+            </div>
+          </div>
+        </div>
     </div>
-      <script src="./src/main.js"></script>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./src/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
   </body>
 </html>
